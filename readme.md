@@ -5,8 +5,21 @@
 Code to control my Raspberry Pi + BrickPi controlled LEGO robot.
 This version also has a static webcam.
 
-
 ![Image of the RPI LEGO robot with a webcam](imgs/rpi-lego-robot-with-webcam.jpg)
+
+## About the robot
+
+Parts list:
+
+* LEGO EV3 motors and tank chassis components
+* [BrickPi](https://www.dexterindustries.com/brickpi-core/)
+* 12.6V battery (came with the BrickPi)
+* An old Logitech webcam
+* Some rubber bands
+
+The BrickPi is a "hat" for the Raspberry Pi that sits on the GPIO pins.
+It has sockets for the ethernet-like plugs that connect to the LEGO EV3 motors and sensors.
+It allows LEGO motors and sensors to be controlled by a Raspberry Pi.
 
 ## Setup
 
