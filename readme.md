@@ -1,9 +1,12 @@
 # rpi-lego-robot
 
+(See also my more recent [non-LEGO rpi robot](https://github.com/jaredclaypoole/rpi-gpio-robot).)
+
 Code to control my Raspberry Pi + BrickPi controlled LEGO robot.
 This version also has a static webcam.
 
-See also my more recent [non-LEGO rpi robot](https://github.com/jaredclaypoole/rpi-gpio-robot).
+
+![Image of the RPI LEGO robot with a webcam](imgs/rpi-lego-robot-with-webcam.jpg)
 
 ## Setup
 
