@@ -55,6 +55,22 @@ Clone this repo and `cd` into its root directory.
 python3 -m pip install -r requirements.txt
 ```
 
+### GUI config
+
+The GUI reads a small `config.yaml` file to determine the url of the video feed.
+
+From the root dir of this repo:
+
+```
+cp config.example.yaml config.yaml
+```
+
+Then modify `config.yaml` to contain the following line, filling in your RPi IP address:
+
+```yaml
+video_feed_url: http://<rpi-ip-address>:5000/video_feed
+```
+
 ## Running the robot control GUI
 
 First, start the webcam feed server as described in the Setup section.
